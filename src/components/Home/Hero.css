@@ -1,0 +1,42 @@
+header.hero {
+    padding: 100px;
+    background-color: #6222CB;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10% 10% 9% 39% / 0% 0% 24% 56%  ;
+    height: 60%;
+   
+    box-shadow: 0 8px 6px -6px black;
+    margin-bottom: 20px;
+  }
+  
+
+ .hero-content{
+    color: #fff;
+    text-align: right;
+ } 
+
+ .hero-left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10% 10% 9% 39% / 0% 0% 24% 56%  ;
+    box-shadow: 0 8px 6px -6px black;
+ }
+
+
+ @media screen and (max-width: 767px) {
+
+    .hero-left img{
+        display: none;
+     }
+
+     header.hero {
+        padding: 100px;
+        border-radius: 0;
+     }
+
+     .hero-content{
+        color: #fff;
+        text-align: left;
+     } 
+ }
