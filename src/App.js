@@ -22,7 +22,7 @@ function App() {
         <Route exact path="/places" element={<PlaceToVisit/>} />
         <Route exact path="/registration" element={<Registration/>} />
         <Route exact path="/event-schedule" element={<EventSchedule/>} />
-      
+        <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
     
     </div>

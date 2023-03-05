@@ -59,6 +59,11 @@
 }
 
 
+.logo-ieee{
+    width: 100px;
+   
+}
+
 
 
 @media screen and (max-width: 768px) {
@@ -71,6 +76,10 @@
    }
    #navbarNav{
     margin-top: 10px;
+}
+
+.logo-ieee{
+    width: 50px;
 }
 }
     

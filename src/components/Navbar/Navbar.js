@@ -1,6 +1,7 @@
 
 import './Navbar.css';
 import { Link,useLocation } from 'react-router-dom';
+import Logo from '../../assets/images/logo-ieee.png';
 
 const Navbar = () => {
 
@@ -14,14 +15,15 @@ const Navbar = () => {
     const registration = activeLink === 'registration' ? 'active nav-cus-link-active' : '';
     const contact = activeLink === 'contact' ? 'active nav-cus-link-active' : '';
     const eventSchedule = activeLink === 'event-schedule' ? 'active nav-cus-link-active' : '';
+    
+    
 
     return(
         <>
         <nav className="navbar navbar-expand-lg navbar-light ">
       <div className="container-fluid">
         <Link to="/" className='router-link navbar-brand'>
-      {/* <img src="your-logo.png" alt="ICSTCEE"/> */}
-      <h3>TEMSCON</h3>
+      <img src={Logo} width="100" className='logo-ieee' alt="ICSTCEE"/> 
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -48,8 +50,9 @@ const Navbar = () => {
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a className="dropdown-item" href="#callforpaper">Call For Paper</a></li>
-            <li><a className="dropdown-item" href="#submission-guidelines">Submission guidelines</a></li>
-            <li><a className="dropdown-item" href="#important-dates">Important dates</a></li>
+            {/* <li><Link to={"/authors-guidelines"} className="dropdown-item" >Submission guidelines</Link></li> */}
+            <li><a href='#authors-guidelines' className="dropdown-item" >Submission guidelines</a></li>
+            <li><a className="dropdown-item" href={"#important-dates"}>Important dates</a></li>
           </ul>
         </li>
 

@@ -1,4 +1,9 @@
 import "./Home-Content.css";
+import Fade from 'react-reveal/Fade';
+
+
+
+
 
 const HomeContent = () => {
   return (
@@ -7,6 +12,7 @@ const HomeContent = () => {
         <div className="row">
             <div className="col-md-12 home-content">
                 <div className="row home-wrap-hero">
+                  <Fade bottom>
           <div className="col-md-6  home-content-text">
             <p>
               The IEEE Technology and Engineering Management Society Conference
@@ -32,7 +38,10 @@ const HomeContent = () => {
               to manage it.
             </p>
           </div>
-          <div className="col-md-4  home-content-table">
+            </Fade>
+          <Fade bottom>
+            
+          <div className="col-md-4  home-content-table" id="important-dates">
             <h3>Important Dates</h3>
             <div class="table-responsive">
               <table class="table">
@@ -59,7 +68,7 @@ const HomeContent = () => {
             <a href="#form" target="_blank" rel="noreferrer" className="btn btn-success">Register Now</a>
   
           </div>
-    
+        </Fade>
           </div>
           </div>
         </div>

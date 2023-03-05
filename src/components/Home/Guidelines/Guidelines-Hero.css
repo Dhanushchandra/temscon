@@ -1,0 +1,40 @@
+
+
+.guidelines-hero {
+  background-color: #f5f5f5;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.guidelines-hero-row h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.guide-white{
+    color: black;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.guide-purple{
+    color: #fff;
+    background-color: #6222CB;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

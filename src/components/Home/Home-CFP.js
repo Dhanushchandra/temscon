@@ -1,5 +1,8 @@
 import "./Home-CFP.css";
 import SImg from "../../assets/images/idea.svg"
+import Fade from 'react-reveal/Fade';
+
+
 
 const HomeCFP = () => {
   return (
@@ -8,6 +11,7 @@ const HomeCFP = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="row cfg-main-wrapper">
+              <Fade left>
             <div className="col-md-7 cfp-main-left">
               <h2>Call For Papers</h2>
               <span className="cfp-main-text">
@@ -43,7 +47,7 @@ const HomeCFP = () => {
                 <br></br>
                 Designation
               </span>
-            </div>
+            </div></Fade>
             <div className="col-md-5 cfp-main-right">
                 <img src={SImg} className="shake"  alt="Science"/>
             </div>
