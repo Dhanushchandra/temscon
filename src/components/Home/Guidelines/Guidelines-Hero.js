@@ -9,7 +9,7 @@ const GuidelinesHero = () => {
         <div className="container">
           <div className="row guidelines-hero-row">
 
-          <h1>Guidelines for authors</h1>
+          <h1>Guidelines for Authors</h1>
 
             <Fade left>
 

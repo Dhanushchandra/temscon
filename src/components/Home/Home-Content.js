@@ -16,7 +16,7 @@ const HomeContent = () => {
           <div className="col-md-6  home-content-text">
             <p>
               The IEEE Technology and Engineering Management Society Conference
-              – Asia Pacific (TEMSCON-ASPAC) is a conference focused on the
+              – Asia Pacific 2023 (TEMSCON-ASPAC-2023) is a conference focused on the
               challenges and practices of technology and innovation management
               in today’s business environments. Recently, emerging markets have
               become a main attraction for their rapid economic development.

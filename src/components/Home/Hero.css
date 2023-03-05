@@ -13,9 +13,16 @@ header.hero {
 
  .hero-content{
     color: #fff;
-    text-align: right;
+    text-align: left;
     line-height: 30px;
  } 
+
+ .hero-content strong{
+      font-size: 30px;
+      font-weight: 600;
+      color: #fff;
+  
+ }
 
  .hero-left img{
     width: 100%;

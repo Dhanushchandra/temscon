@@ -1,7 +1,8 @@
 
 import './Navbar.css';
 import { Link,useLocation } from 'react-router-dom';
-import Logo from '../../assets/images/logo-ieee.png';
+import IEEE from '../../assets/images/logo-ieee.png';
+import IEEE_TEMS from '../../assets/images/ieee-tems.png';
 
 const Navbar = () => {
 
@@ -23,7 +24,9 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light ">
       <div className="container-fluid">
         <Link to="/" className='router-link navbar-brand'>
-      <img src={Logo} width="100" className='logo-ieee' alt="ICSTCEE"/> 
+      
+      <img src={ IEEE_TEMS} width="100" className='logo-ieee logo-ieee-tems' alt="IEEE TEMS"/> 
+      {/* <img src={IEEE} width="100" className='logo-ieee' alt="IEEE"/>    */}
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -78,6 +81,11 @@ const Navbar = () => {
               </Link>
             </li>
             
+            <li className={"nav-item1"}>
+              <a href='https://www.ieee.org' target='_blank' rel="noreferrer" className='router-link nav-link'>
+            <img src={IEEE} width="100" className='logo-ieee' alt="IEEE"/>   
+              </a>
+            </li>
            
           </ul>
         </div>

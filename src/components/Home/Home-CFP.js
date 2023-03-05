@@ -22,7 +22,7 @@ const HomeCFP = () => {
               On behalf of IEEE TEMSCON 2023 organising
                 committee, I take responsibility to invite you to professionally
                 enriching flagship technical conference of ASIA-PACIFIC region,
-                ASPAC TEMSCON 2023 to be organised on December 14th to 16th
+                TEMSCON ASPAC 2023 to be organised on December 14th to 16th
                 2023. The event will cover multiple technical tracks covering
                 multiple domains. Eminent international speakers from various
                 countries will deliver talks and conduct various workshops and
@@ -39,7 +39,7 @@ const HomeCFP = () => {
                 You are requested to upload your paper to paper submission
                 website. A Call-for-paper is also enclosed for your perusal. I
                 assure you of an international technically enriched and vibrant
-                experience at ASPAC TEMSCON 2023, and I am sure your experience
+                experience at TEMSCON ASPAC 2023, and I am sure your experience
                 at this conference will be rewarding and memorable one.
                 <br></br>
                 <br></br>

@@ -16,10 +16,9 @@ const Hero = () => {
       <div className="col-md-6 hero-right">
 
         <div className="hero-content">
-          <h1>TEMSCON-ASPAC 2023</h1>
-         <strong>IEEE Technology and Engineering Management Society Conference: Asia-Pacific</strong> <br></br>
-          <p>International Conference on Emerging Trends in Materials Science and Engineering</p>
-          <a href="#form" target="_blank" rel="noreferrer" className="btn btn-success">Register Now</a>
+          <h1>IEEE Technology and Engineering Management Society Conference: Asia-Pacific (TEMSCON-ASPAC 2023)</h1>
+         <strong>Shereton Grand, Bengaluru, India - December 14 to 16</strong> <br></br>
+          <a href="#callforpaper" rel="noreferrer" className="btn btn-success mt-2">Call For Paper</a>
         </div>
       </div>
       </Fade>
