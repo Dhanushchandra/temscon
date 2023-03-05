@@ -1,0 +1,70 @@
+.cfp-main{
+    margin-top: 50px;
+    /* padding: 100px; */
+    background-color: #6222CB;
+    background-size: cover;
+    background-position: center;
+    border-radius:   9% 39% 10% 10%   / 24% 56% 0% 0%  ;
+    height: 60%;
+   
+    box-shadow: 0 8px 6px -6px black;
+    margin-bottom: 20px;
+}
+
+.cfp-main h2{
+    text-align: left;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.cfp-main-text{
+    color: #fff;
+    font-weight: 600;
+}
+
+.cfp-main-left{
+    text-align: left;
+    padding: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;; */
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.cfp-main-right img{
+    width: 75%;
+    height: 100%;
+    border-radius: 10% 10% 9% 39% / 0% 0% 24% 56%  ;
+    
+}
+
+
+.cfg-main-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .cfp-main{
+        margin-top: 0px;
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    .cfp-main-left{
+        text-align: left;
+        padding: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;; */
+        border-radius: 15px;
+        margin-top: 50px;
+    }
+
+}

@@ -13,6 +13,7 @@ const Navbar = () => {
     const places = activeLink === 'places' ? 'active nav-cus-link-active' : '';
     const registration = activeLink === 'registration' ? 'active nav-cus-link-active' : '';
     const contact = activeLink === 'contact' ? 'active nav-cus-link-active' : '';
+    const eventSchedule = activeLink === 'event-schedule' ? 'active nav-cus-link-active' : '';
 
     return(
         <>
@@ -51,6 +52,12 @@ const Navbar = () => {
             <li><a className="dropdown-item" href="#important-dates">Important dates</a></li>
           </ul>
         </li>
+
+        <li className={"nav-item " + eventSchedule}>
+            <Link to="/event-schedule" className='router-link nav-link'>   
+            <span className={'nav-cus-link ' + eventSchedule}>Event Schedule</span>
+              </Link>
+            </li>
 
             <li className={"nav-item " + places}>
             <Link to="/places" className='router-link nav-link'>   
