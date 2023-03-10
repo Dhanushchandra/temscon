@@ -27,8 +27,11 @@
    } 
    
    @media screen and (max-width: 767px) {
+
+
      .footer-content {
        font-size: 14px;
+    
      }
    }
    

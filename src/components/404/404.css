@@ -1,0 +1,57 @@
+.error-container {
+	text-align: center;
+	margin-top: 20%;
+}
+
+.error-container h1 {
+	font-size: 72px;
+	margin-bottom: 40px;
+	color: #333;
+}
+
+.error-container p {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #666;
+}
+
+.btn404{
+	display: inline-block;
+	padding: 10px 20px;
+	background: #333;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background 0.3s ease-in-out;
+}
+
+.btn404:hover {
+	background: #555;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 767px) {
+	.error-container {
+		margin-top: 10%;
+	}
+	
+	.error-container h1 {
+		font-size: 48px;
+		margin-bottom: 20px;
+	}
+	
+	.error-container p {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	
+	.btn404 {
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+}
+
+
+
+

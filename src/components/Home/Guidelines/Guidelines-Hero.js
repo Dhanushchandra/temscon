@@ -11,7 +11,7 @@ const GuidelinesHero = () => {
 
           <h1>Guidelines for Authors</h1>
 
-            <Fade left>
+            <Fade bottom>
 
             <div className="col-md-12 guidelines-hero-1 guide-purple">
              
@@ -34,7 +34,7 @@ const GuidelinesHero = () => {
 
             {/* ---------------------------- */}
 
-            <Fade right>
+            <Fade bottom>
 
             <div className="col-md-12 guidelines-hero-2 guide-white">
              
@@ -59,7 +59,7 @@ const GuidelinesHero = () => {
 
             {/* --------------------------------------- */}
 
-            <Fade left>
+            <Fade bottom>
 
             <div className="col-md-12 guidelines-hero-3 guide-purple">
                 <p><b>Review and acceptance</b></p>
@@ -75,7 +75,7 @@ const GuidelinesHero = () => {
 
             {/* --------------------------------------- */}
 
-            <Fade right>
+            <Fade bottom>
 
             <div className="col-md-12 guidelines-hero-4 guide-white">
                 <p><b>Presentation guidelines</b></p>
@@ -92,7 +92,7 @@ const GuidelinesHero = () => {
 
             {/* --------------------------------------- */}
 
-            <Fade left> 
+            <Fade bottom> 
 
             <div className="col-md-12 guidelines-hero-5 guide-purple">
                 <p><b>Important note to authors</b></p>

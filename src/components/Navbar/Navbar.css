@@ -66,8 +66,12 @@
 
 .logo-ieee-tems{
     width: 100px;
+    margin-left: 20px;
 }
 
+.logo-temscon{
+    width: 100px;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -83,7 +87,7 @@
 }
 
 .logo-ieee{
-    width: 50px;
+    width: 80px;
 }
 }
     

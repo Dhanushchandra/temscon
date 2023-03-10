@@ -23,13 +23,16 @@
 }
 
 .home-content-table{
-   
     padding: 50px;
     text-align: left;
     font-size: 1rem;
     background-color: #6222CB;
     border-radius: 15px;
 
+}
+
+.home-content-main-row{
+    margin: 0;
 }
 
 .home-content-table a{
@@ -63,8 +66,15 @@
 
 @media screen and (max-width: 767px) {
 
+    .home-content{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+   
     .home-content-text{
-        margin-top: 0px;
+        margin: 0px;
         padding: 20px;
         text-align: justify;
         font-size: 1rem;
@@ -74,6 +84,6 @@
         padding: 20px;
         text-align: left;
         font-size: 1rem;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 }

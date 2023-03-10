@@ -1,0 +1,22 @@
+.committee{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.committee h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.committee-table tbody tr{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.committee-table tbody tr:nth-child(odd){
+    background-color: #f2f2f2;
+}

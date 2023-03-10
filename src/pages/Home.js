@@ -1,4 +1,5 @@
 import Base from "../components/Base/Base"
+import Committee from "../components/Committee/Committee"
 import GuidelinesHero from "../components/Home/Guidelines/Guidelines-Hero"
 import Hero from "../components/Home/Hero"
 import HomeCFP from "../components/Home/Home-CFP"
@@ -12,6 +13,7 @@ const Home = () => {
             <HomeContent/>
             <HomeCFP/>
             <GuidelinesHero/>
+            <Committee/>
         </Base>
     )
 }

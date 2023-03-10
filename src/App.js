@@ -9,6 +9,7 @@ import Registration from './pages/Registration';
 
 import {  Routes, Route } from 'react-router-dom';
 import EventSchedule from './pages/EventSchedule';
+import NotFound from './components/404';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Route exact path="/places" element={<PlaceToVisit/>} />
         <Route exact path="/registration" element={<Registration/>} />
         <Route exact path="/event-schedule" element={<EventSchedule/>} />
-        <Route path="*" element={<h1>404 Not Found</h1>} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
     
     </div>

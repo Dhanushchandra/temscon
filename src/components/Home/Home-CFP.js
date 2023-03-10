@@ -11,10 +11,12 @@ const HomeCFP = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="row cfg-main-wrapper">
-              <Fade left>
-            <div className="col-md-7 cfp-main-left">
+            
+            <div className="col-md-7 cfp-main-left">  <Fade left>
               <h2>Call For Papers</h2>
+              
               <span className="cfp-main-text">
+              <Fade bottom>
                 <br></br>
                 Dear Researcher,<br>
                 </br>
@@ -45,9 +47,9 @@ const HomeCFP = () => {
                 <br></br>
                  Name<br></br>
                 <br></br>
-                Designation
-              </span>
-            </div></Fade>
+                Designation</Fade>
+              </span></Fade>
+            </div>
             <div className="col-md-5 cfp-main-right">
                 <img src={SImg} className="shake"  alt="Science"/>
             </div>
