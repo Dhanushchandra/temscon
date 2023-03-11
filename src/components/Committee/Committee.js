@@ -1,14 +1,15 @@
 import "./Committee.css";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
 const Committee = () => {
   return (
     <div className="committee" id="committee">
       <h1>Committee</h1>
+      <Fade bottom>
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="table-responsive">
+            {/* <div className="table-responsive">
               <table className="table committee-table">
                 <thead>
                     <Fade bottom>
@@ -115,10 +116,119 @@ const Committee = () => {
                 
                 </tbody>
               </table>
+            </div> */}
+            <div className="table-responsive">
+              <table className="table committee-table">
+                <tbody>
+                  <tr className="table-head-committee">
+                    <td >
+                         Conference Organizing Committee
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                  </tr>
+                  <tr>
+                    <Fade bottom>
+
+                      <td>    
+                        Yatheendranath Tarikere<br></br>
+                        Conference Organizing Committee<br></br>
+                        Conference Co-Chair<br></br>
+                        yathitj@yahoo.com<br></br>
+                        +91 98440 74381
+                      </td>
+                      <td>
+                        Arun Tanksali<br></br>
+                        Conference Organizing Committee<br></br>
+                        Conference Co-Chair<br></br>
+                        arun@tanksali.com
+                      </td>
+                      <td></td>
+                      <td></td>
+                    </Fade>
+                  </tr>
+                  <tr className="table-head-committee">
+                    <td >
+                    Technical Program Committee
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                  </tr>
+                  <tr >
+                    <Fade bottom>
+                      <td>
+                        Devanathan<br></br>M Technical Program Committee
+                        <br></br>
+                        TPC Chair<br></br>
+                        devanathan.m@ieee.org
+                      </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </Fade>
+                  </tr>
+                  <tr className="table-head-committee">
+                    <td>
+                    Finance Committee
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                  </tr>
+                  <tr>
+                    <Fade bottom>
+                      <td>Pushpamala
+                 S<br></br>
+                    Finance Committee<br></br>
+                   Chair<br></br>
+                     pushpasiddaraju@ieee.org<br></br>
+                     </td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                    </Fade>
+                  </tr>
+                  <tr className="table-head-committee">
+                    <td>
+                    Advisory Committee
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                  </tr>
+                  <tr>
+                    <Fade bottom>
+                      <td>
+                    Javed
+                   Tarikere
+                     GS<br></br>
+                     Advisory Committee<br></br>
+                   </td> 
+                   <td>Sudeendra
+                   Koushik<br></br>
+                Advisory Committee</td>
+                <td>Ravikiran
+                  Annagere<br></br>
+                   Advisory Committee</td>
+                   <td>Andy
+           Chen<br></br>
+                Advisory Committee</td>
+                    </Fade>
+                  </tr>
+               
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
       </div>
+      </Fade>
     </div>
   );
 };

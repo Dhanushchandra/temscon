@@ -58,10 +58,12 @@
 
 .home-content-table tr:nth-child(odd){
     background-color: #f2f2f2;
+    font-weight: 600;
 }
 
 .home-content-table tr:nth-child(even){
     color: #fff;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 767px) {

@@ -1,6 +1,7 @@
 .committee{
     margin-top: 50px;
     margin-bottom: 50px;
+  
 }
 
 .committee h1{
@@ -15,8 +16,32 @@
 .committee-table tbody tr{
     font-weight: 600;
     font-size: 1rem;
+
 }
 
-.committee-table tbody tr:nth-child(odd){
+
+.committee-table tbody tr td{
+    padding: 30px;
+    text-align: justify;
+}
+
+.committee-table tbody tr:nth-child(even){
     background-color: #f2f2f2;
+}
+
+
+
+
+.table-head-committee td{
+    background-color: #6222CB;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+   
+}
+
+.table-responsive{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 10px;
 }
