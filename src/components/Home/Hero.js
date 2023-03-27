@@ -19,7 +19,7 @@ const Hero = () => {
          <Fade bottom>
           <div>
           <h1>IEEE Technology and Engineering Management Society Conference: Asia-Pacific (TEMSCON-ASPAC 2023)</h1>
-         <strong>Shereton Grand, Bengaluru, India - December 14 to 16</strong> <br></br>
+         <strong>Shereton Grand, Bengaluru, India - December 14<sup>th</sup> to 16<sup>th</sup></strong> <br></br>
           <a href="#callforpaper" rel="noreferrer" className="btn btn-success mt-2">Call For Paper</a>  
            </div></Fade>
         </div>

@@ -27,7 +27,7 @@
     transition: background-color 0.3s ease;
   }
 
- .nav-item:nth-child(3):hover{
+ .nav-item:nth-child(2):hover{
     background-color: #fff;
     border-radius: 5px;
     color: #fff;
@@ -66,11 +66,12 @@
 
 .logo-ieee-tems{
     width: 100px;
-    margin-left: 20px;
+   
 }
 
 .logo-temscon{
-    width: 100px;
+    width: 300px;
+    /* margin-left: 100%; */
 }
 
 
@@ -84,6 +85,11 @@
    }
    #navbarNav{
     margin-top: 10px;
+}
+
+.logo-temscon{
+    width: 200px;
+    margin-left: 0%;
 }
 
 .logo-ieee{
