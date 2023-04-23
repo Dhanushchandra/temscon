@@ -10,7 +10,7 @@ const Home = () => {
     <Base>
       <Hero />
       <HomeContent />
-      {/* <HomeCFP/> */}
+      <HomeCFP />
       <GuidelinesHero />
       <Committee />
     </Base>
