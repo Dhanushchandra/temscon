@@ -51,21 +51,21 @@ const HomeContent = () => {
                       <table class="table">
                         <tbody>
                           <tr>
-                            <th>Abstraction Submission Date</th>
-                            <td>15-August-2023</td>
+                            <th>Full paper submission:</th>
+                            <td>August 30, 2023</td>
                           </tr>
                           <tr>
-                            <th>Notification of Acceptance Date</th>
-                            <td>01-September-2023</td>
+                            <th>Acceptance Notification:</th>
+                            <td>October 15, 2023</td>
                           </tr>
                           <tr>
-                            <th>Full Paper Submission Date</th>
-                            <td>25-September-2023</td>
+                            <th>Registration Closes:</th>
+                            <td>October 30, 2023</td>
                           </tr>
 
                           <tr>
-                            <th>Final Paper Submission Date</th>
-                            <td>13-October-2023</td>
+                            <th>Final Manuscript Submission:</th>
+                            <td>November 10, 2023</td>
                           </tr>
                         </tbody>
                       </table>
