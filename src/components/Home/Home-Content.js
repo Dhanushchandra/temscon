@@ -70,14 +70,6 @@ const HomeContent = () => {
                         </tbody>
                       </table>
                     </div>
-                    <Link
-                      to="/register"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn btn-success"
-                    >
-                      Register Now
-                    </Link>
                   </Fade>
                 </div>
               </div>
