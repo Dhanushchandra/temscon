@@ -41,7 +41,17 @@ const HomeCFP = () => {
                             fontStyle: "italic",
                           }}
                         >
-                          &nbsp; papers.temscon2023@gmail.com
+                          &nbsp;
+                          <a
+                            href="https://cmt3.research.microsoft.com/TEMSCONASPAC2023"
+                            style={{
+                              color: "yellow",
+                            }}
+                            target="_blank"
+                          >
+                            {" "}
+                            https://cmt3.research.microsoft.com/TEMSCONASPAC2023
+                          </a>
                         </span>
                       </p>
                     </Fade>
